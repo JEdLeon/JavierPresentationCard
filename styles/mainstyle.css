@@ -1,0 +1,109 @@
+/*----------------TAG Style------------------*/
+body {
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+hr {
+    align-items: center;
+    size: 2px;
+    border-style: solid;
+    width: 60%;
+}
+
+table {
+    margin: auto;
+    text-align: left;
+    border-spacing: 20px;
+}
+
+ul {
+    margin: auto;
+    display:table;
+    text-align: left;
+}
+
+p {
+    margin: 10px auto;
+    display: table;
+}
+
+a {
+    text-decoration: none;
+    color: #301E67;
+}
+
+a:hover {
+    color:white;
+}
+
+/*----------------CLASS Style----------------*/
+.nothingtodo {
+    font-family: 'Nothing You Could Do', cursive, serif;
+    font-size: 45px;
+    margin-bottom: 0;
+}
+
+.maindiv {
+
+    background-color: #B6EADA;
+    color:#000000;
+    padding: 5px 5px 150px 5px;
+}
+
+.middlediv {
+    background-color: #5B8FB9;
+    padding: 5px;
+}
+
+.bottomdiv {
+    background-color: #301E67;
+    padding: 5px;
+}
+
+.finale {
+    background-color: #03001C;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.profile {
+    width: 130px; 
+    border-radius: 40%;
+    margin: auto;
+    display: inline-block;
+    position: relative;
+    right: 20px;
+}
+
+.mountain {
+    border-radius: 30%;
+    width: 50%;
+    position: relative;
+    top: 50px;
+}
+
+.hobbiesicons {
+    margin: 20px auto;
+    display: inline;
+}
+
+img.hobbiesicons {
+    width: 10%;
+}
+
+.aboutme {
+    line-height: 20px;
+    margin: 15px auto;
+    text-align: left;
+    width: 250px;
+    display: inline-block;
+    position: relative;
+    bottom: 25px;
+}
+
+.attribution {
+    margin: 10px auto;
+}
