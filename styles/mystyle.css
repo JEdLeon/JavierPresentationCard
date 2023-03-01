@@ -1,0 +1,121 @@
+/*-----Tag-----*/
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+ul {
+    margin: auto;
+    text-align: left;
+    display: table;
+}
+
+li {
+    font-size: 1.2rem;
+}
+
+hr {
+    border-color: black;
+    display: inline-block;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 40%;
+    width: 80%;
+}
+
+table {
+    margin: auto;
+    text-align: left;
+    border-spacing: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #5b8fb9;
+}
+
+a:hover {
+    color:white;
+}
+
+/*-----Class-----*/
+.normal-padding {
+    padding: 5% 15%;
+}
+
+
+/*-----first-----*/
+#first {
+    background-color: #b6eada;
+    color: black;
+    overflow: hidden;
+}
+
+h1 {
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+#first img {
+    width: 70%;
+    border-radius: 30%;
+}
+
+
+/*-----second-----*/
+#second {
+    background-color: #5b8fb9;
+    overflow: hidden;
+}
+
+.profile {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.hobbiesicons {
+    width: 50%;
+}
+
+@media (max-width: 768px) {
+    .hobbiesicons {
+        width: 70%;
+    }
+    .profile {
+        width: 70%;
+    }
+}
+
+@media (max-width: 576px) {
+    .hobbiesicons {
+        width: 90%;
+    }
+    .profile {
+        width: 90%;
+    }
+}
+
+
+/*-----third-----*/
+#third {
+    background-color: #301e67;
+    padding: 15px;
+}
+
+
+/*-----finale-----*/
+#finale {
+    background-color: #03001c;
+    padding: 2% 0;
+}
